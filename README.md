@@ -8,7 +8,7 @@ The infrastructure is defined using Terraform, and the deployment is automated v
 
 ## Architecture
 
-- **Application**: A Python Flask app deployed on AWS (likely ECS or similar).
+- **Application**: A Python  Flask app deployed on AWS (likely ECS or similar).
 - **Monitoring Stack**:
   - **Prometheus**: Collects metrics from the application (e.g., request counts, response times) and node exporters (system metrics like CPU, memory). It scrapes data from configured targets at regular intervals.
   - **Grafana**: Visualizes metrics from Prometheus in dashboards. It provides customizable charts and alerts based on the collected data.
